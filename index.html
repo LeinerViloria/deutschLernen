@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/nocturno.css">    
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/libro-logo-icon-design-de-wifi-124649343.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">  
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>     
+    <title>Deutsch lernen</title>
+</head>
+<body>
+    <div id="barra">
+        <div class="title">
+            <h1 id="tituloHecho" class="display-4">Aprende alemán aleatoriamente</h1>
+        </div>
+        <div class="boton">
+            <button type="button" class="btn btn-primary" id="putzenAlles">Limpiar</button>
+        </div>
+    </div>
+    <div class="botonC">
+        <buton class="switch" id="switch">
+            <span><i class="far fa-sun"></i></span>
+            <span><i class="far fa-moon"></i></span>
+        </buton>
+    </div>  
+    <br>
+    <div class="row justify-content-center">
+        <div id="col1" class="col col-xs-24 col-sm-12 col-md-6">
+            <h5 class="card-header text-center"><b>Numero aleatorio generado</b></h5>
+            <div class="div text-center">
+                <h1 id="mostrandoNumero">-</h1>
+            </div>
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5>Último número generado:</h5>
+                <button id="historial" class="btn btn-dark btn-sm">-</button>
+            </div>            
+        </div> 
+        <div id="col2" class="col col-xs-24 col-sm-12 col-md-6">
+            <h4 class="text-justify">
+                Podrás manejar aleatoriamente las diferentes areas del idioma aleman, 
+                ademas, también podrás tener a la mano los diferentes temas de cada nivel, desde el A1 hasta el B1.
+            </h4>
+            <hr>
+            <button id="mostrandoInfo" type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Mostrar</button>
+            <button id="generar" class="btn btn-outline-secondary">Generar número aleatorio</button>                        
+            <div id="informacion" class="d-flex align-items-center text-center">                                                
+                <table class="table table-success table-striped">
+                    <tbody id="todaInfo"></tbody>
+                </table>
+            </div>
+        </div>               
+    </div>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>      
+    <script src="programa/declarando.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="programa/sweetalert.js"></script>
+    <script src="programa/cambiando.js"></script>
+</body>
+</html>

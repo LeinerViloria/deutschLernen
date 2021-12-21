@@ -1,0 +1,139 @@
+#barra{
+    background-color: rgba(94, 94, 94, 0.808);
+    color: white;
+    overflow: hidden;    
+}
+.title{    
+    box-sizing: border-box;
+    float: left; 
+    margin: 5px 10px; 
+    margin-top: 20px;  
+    padding: 2px 5px;
+    position: relative;    
+}
+.boton{    
+    box-sizing: border-box;
+    float: right;
+    margin: 30px 10px;   
+    padding: 5px 8px;  
+    position: relative;      
+}
+#putzenAlles, #mostrandoInfo{
+    background: rgba(211, 203, 86, 0.658);
+    border: none;
+    color: black;
+}
+#putzenAlles:hover, #mostrandoInfo:hover{
+    background: rgba(211, 203, 86, 0.925);
+    border: none;
+    color: black;
+}
+.row{     
+    box-sizing: border-box;
+    padding: 30px 20px;
+    clear: both;
+    width: 100%;
+}
+#informacion{
+    clear: right;
+    padding-top: 15px;
+}
+button#generar{        
+    position: relative;
+    float: right;
+}
+#mostrandoNumero{
+    font-size: 14rem;
+}
+
+@media only screen and (max-width:755px) {
+    #tituloHecho{
+        font-size: 2.5rem;        
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #tituloHecho{
+        font-size: 2.44rem;        
+    }
+}
+
+@media only screen and (max-width:690px) {
+    #tituloHecho{
+        font-size: 2.3rem; 
+             
+    }
+}
+
+@media only screen and (max-width:682px) {
+    #tituloHecho{
+        font-size: 2.2rem;        
+    }
+    .boton{    
+        box-sizing: border-box;
+        clear: both;
+        float: right;
+        margin-top: -50px;   
+        padding: 5px 8px;  
+        position: relative;      
+    }
+}
+@media only screen and (max-width:618px) {
+    #tituloHecho{
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:527px) {
+    #tituloHecho{
+        font-size: 1.7rem;
+    }
+    .boton{    
+        box-sizing: border-box;
+        clear: both;
+        float: right;
+        margin-top: -50px;   
+        padding: 5px 8px;  
+        position: relative;      
+    }
+}
+@media only screen and (max-width:482px) {
+    .title h1{    
+        box-sizing: border-box;
+        float: left; 
+        font-size: 10px;        
+        margin: 5px 10px;          
+        width: 80%;
+        position: relative;    
+    }
+    .boton{    
+        box-sizing: border-box;        
+        float: right;
+        margin-left: 20px;          
+        position: relative;      
+    }
+    #col1{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:475px) {
+    .title{    
+        box-sizing: border-box;
+        float: inherit; 
+        font-size: 20px;
+        width: 80%;
+        margin: 5px 10px;          
+        padding: 2px 5px;
+        position: relative;    
+    }
+    .boton{    
+        box-sizing: border-box;
+        clear: both;
+        float: right;
+        margin-top: -40px;   
+        
+        position: relative;      
+    }
+    #col1{
+        width: 100%;
+    }
+}
